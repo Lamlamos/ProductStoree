@@ -259,7 +259,6 @@ public class HomePage {
     @Test (priority = 10)
     @Description("contact Send Message alert text")
     void contactSendMessage() throws InterruptedException {
-        ApiConnection apiConnection = new ApiConnection();
         Alert alert;
         WebElement contact = webDriver.findElement(By.xpath(config.getProperties("contactButton")));
         contact.click();
