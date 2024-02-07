@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Demo 2: How to run test cases within multiple Groups -->
+<suite name="TestNG Group Test" thread-count="4" parallel="methods">
+    <test verbose="2" preserve-order="true" name="C:\Users\user\Desktop\demo\ProductStore">
+
+        <classes>
+            <class name="ExamProductStore.HomePage">
+            </class>
+        </classes>
+</test>
+</suite>
